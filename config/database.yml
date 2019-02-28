@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: diary_development
+  pool: 5
+  username: diary
+  password: hien221296
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: diary_test
+  pool: 5
+  username: diary
+  password: hien221296

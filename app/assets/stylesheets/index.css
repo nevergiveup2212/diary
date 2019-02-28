@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Osvald');
+
+
+html, body {
+    margin: 0;
+    pading: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.into {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url('https://static.pexels.com/photos/26206/pexels-photo.jpg') no-repeat 50% 50%;
+}
