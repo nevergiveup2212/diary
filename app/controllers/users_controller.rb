@@ -11,13 +11,16 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       flash[:success] = "Register success"
-      redirect to users_path
+      redirect_to users_path
     else
       flash[:success] = "Register failed"
       render :new
     end
   end
 
+  def show
+    @user = User.find_by_id(params[:id])
+  end
   private
   def user_params
     params.require(:user).permit :name, :password, :password_confirmation
